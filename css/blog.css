@@ -1,14 +1,14 @@
 @font-face {
   font-family: BebasNeue;
-  src: url(fonts/BebasNeue-Regular.otf);
+  src: url(../fonts/BebasNeue-Regular.otf);
 }
 @fontface {
   font-family: ChasingEmbers;
-  src: url(fonts/ChasingEmbers.otf);
+  src: url(../fonts/ChasingEmbers.otf);
 }
 @fontface {
   font-family: MoonFlowerBold;
-  src: url(fonts/MoonFlowerBold.ttf);
+  src: url(MoonFlowerBold.ttf);
 }
 body {
   margin: 0;
@@ -27,7 +27,7 @@ ul {
   float: right;
   align-items: center;
   height: 100%;
-  font-family: 'Bebas Neue'; sans-serif;
+  font-family: 'BebasNeue'; sans-serif;
   padding: 1% 0;
 }
 a {
@@ -71,7 +71,7 @@ img.title {
 h1.welcome {
   padding-left: 40px;
   font-size: 10em;
-  font-family: MoonFlowerBold;
+  font-family: 'MoonFlowerBold';
 }
 h1.blog {
   text-align: center;
