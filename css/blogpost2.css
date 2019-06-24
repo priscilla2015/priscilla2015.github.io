@@ -1,0 +1,81 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url(fonts/BebasNeue-Regular.otf);
+}
+@fontface {
+  font-family: ChasingEmbers;
+  src: url(fonts/ChasingEmbers.otf);
+}
+@fontface {
+  font-family: MoonFlowerBold;
+  src: url(fonts/MoonFlowerBold.ttf);
+}
+body {
+  margin: 0;
+}
+nav {
+  background-color: grey;
+  height: 10%;
+}
+img.priscilla {
+  padding-top: 10px;
+}
+ul {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  align-items: center;
+  height: 100%;
+  font-family: 'Bebas Neue', sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10%;
+  font-size: 2em;
+}
+li {
+  align-self: center;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+h1.blog {
+  text-align: center;
+}
+img.blog {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  width: 50%;
+  margin-top: 1%;
+}
+p.bold {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+p.paragraphs {
+  text-align: justify;
+  margin-left: 7%;
+  margin-right: 7%;
+  font-size: 1.1em;
+  line-height: 160%;
+  font-family: 'Open Sans', serif;
+}
+p.center {
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 160%;
+  font-family: 'Open Sans', serif;
+}
+.together, .togetherright {
+  width: 47%;
+  height: 100%;
+}
+.togetherPics {
+  display: flex;
+  justify-content: space-evenly;
+}

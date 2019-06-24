@@ -1,0 +1,104 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url(fonts/BebasNeue-Regular.otf);
+}
+@fontface {
+  font-family:ChasingEmbers;
+  src: url(fonts/ChasingEmbers.otf);
+}
+body {
+  margin: 0;
+}
+nav {
+  background-color: grey;
+  height: 10%;
+}
+img.priscilla {
+  padding-top: 10px;
+}
+ul {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  align-items: center;
+  height: 100%;
+  font-family: 'Bebas Neue'; sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10%;
+  font-size: 2em;
+}
+li {
+  align-self: center;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+.background {
+  background-image: url('../images/gradient.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.design {
+  font-family: Times, serif;
+  font-size: 1em;
+  margin-top: 0;
+}
+.followme {
+  font-family: Times, serif;
+  font-size: 1.4em;
+}
+.about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+}
+.photo {
+  width: 90%;
+  height: auto;
+  justify-self: flex-end;
+}
+
+.infotext {
+  justify-self: center;
+  padding: 0 5%;
+  display: grid;
+  grid-template-rows: 60% auto;
+}
+.textbox {
+  border-radius: 15px;
+  background-color: grey;
+  width: 70%;
+  height: 80%;
+}
+.textContent {
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+.textbox {
+  margin: 0;
+  color: white;
+  align-items: center;
+  line-height: 170%;
+}
+.social {
+  width: 50px;
+  height: 50px;
+  padding-right: 1%;
+  margin-right: 0;
+}
+.socialmedia a {
+  margin: 0;
+}

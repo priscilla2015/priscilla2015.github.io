@@ -1,0 +1,43 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url(fonts/BebasNeue-Regular.otf);
+}
+@fontface {
+  font-family:ChasingEmbers;
+  src: url(fonts/ChasingEmbers.otf);
+}
+body {
+  margin: 0;
+}
+nav {
+  background-color: grey;
+  height: 10%;
+}
+img.priscilla {
+  padding-top: 10px;
+}
+ul {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  align-items: center;
+  height: 100%;
+  font-family: 'Bebas Neue'; sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10%;
+  font-size: 2em;
+}
+li {
+  align-self: center;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+img.resize {
+  width: 100%;
+  height: 100%;
+}
