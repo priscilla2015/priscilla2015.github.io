@@ -1,0 +1,103 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url(fonts/BebasNeue-Regular.otf);
+}
+@fontface {
+  font-family:ChasingEmbers;
+  src: url(fonts/ChasingEmbers.otf);
+}
+body {
+  margin: 0;
+}
+nav {
+  background-color: grey;
+  height: 10%;
+}
+img.priscilla {
+  padding-top: 10px;
+}
+ul {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  align-items: center;
+  height: 100%;
+  font-family: 'Bebas Neue'; sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10%;
+  font-size: 2em;
+}
+li {
+  align-self: center;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+.background {
+  background-image: url('../images/gradient.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textbox {
+  margin: 0;
+  color: white;
+  align-items: center;
+  line-height: 170%;
+}
+.contact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+}
+.textContent {
+  display: grid;
+}
+.textbox {
+  border-radius: 15px;
+  background-color: grey;
+  width: 70%;
+  height: 80%;
+  margin: 0;
+  color: white;
+  align-items: center;
+  line-height: 170%;
+}
+.design {
+  font-family: Times, serif;
+  font-size: 1.5em;
+  margin-top: 5%;
+  margin-left: 20%;
+  align-self:center;
+}
+.instagram {
+  font-family: Times, serif;
+  font-size: 1.5em;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+.social {
+  width: 50px;
+  height: 50px;
+  padding-right: 1%;
+  margin-right: 0;
+  margin-left: 55%;
+}
+.twitter {
+  font-family: Times, serif;
+  font-size: 1.5em;
+  margin-top: 5%;
+  margin-left: 40%;
+}
