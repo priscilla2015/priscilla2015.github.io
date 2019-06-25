@@ -1,11 +1,3 @@
-@font-face {
-  font-family: BebasNeue;
-  src: url(../fonts/BebasNeue-Regular.otf);
-}
-@fontface {
-  font-family:ChasingEmbers;
-  src: url(../fonts/ChasingEmbers.otf);
-}
 body {
   margin: 0;
 }
@@ -23,7 +15,9 @@ ul {
   float: right;
   align-items: center;
   height: 100%;
-  font-family: 'BebasNeue'; sans-serif;
+  font-family: 'Oswald'; sans-serif;
+  font-weight: 300;
+  font-size: .8em;
 }
 a {
   color: white;
